@@ -12,6 +12,8 @@ if you have issues with Docker-Compose versions incompatible with your version o
 curl -sSL https://get.docker.com/ubuntu/ | sudo sh
 ```
 
+(should work on any Ubuntu based system)
+
 ### Install Docker-Compose
 
 ```
