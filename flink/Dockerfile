@@ -22,8 +22,7 @@ FROM base
 RUN ssh-keygen -f ~/.ssh/id_rsa -t rsa -N ''
 RUN cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/*
 
-##Flink 0.8.1 Installation
-###Download:
+##Flink 0.9.0 Installation
 RUN mkdir ~/downloads && cd ~/downloads && \
     wget -q -O - http://mirror.reverse.net/pub/apache/flink/flink-0.9.0/flink-0.9.0-bin-hadoop26.tgz | tar -zxvf - -C /usr/local/
 RUN cd /usr/local && ln -s ./flink-0.9.0 flink

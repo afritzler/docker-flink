@@ -34,7 +34,6 @@ ENV JAVA_HOME /usr/java/default/
 #RUN apt-get install -y unzip openjdk-7-jre-headless
 #ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
 
-
 RUN echo 'root:secret' | chpasswd
 
 #SSH as root... probably needs to be revised for security!
