@@ -16,7 +16,7 @@
 # limitations under the License.
 ################################################################################
 
-FROM ubuntu:14.04
+FROM ubuntu
 
 #requirements
 RUN apt-get update; apt-get install -y curl wget supervisor openssh-server openssh-client nano

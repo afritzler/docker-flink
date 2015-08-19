@@ -18,7 +18,6 @@
 # limitations under the License.
 ################################################################################
 
-
 #Kill cluster and remove all containers
 docker-compose kill
 #docker rm $(docker ps -a -q)
